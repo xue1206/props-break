@@ -1,0 +1,15 @@
+{
+  "name": "@props-break/generater-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "pnpm compile && pnpm type",
+    "compile": "swc ./src/index.ts -o dist/index.js",
+    "type": "tsc ./src/index.ts --declaration --emitDeclarationOnly --outfile dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
