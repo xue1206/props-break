@@ -24,3 +24,7 @@ a {
 .text-shadow {
   text-shadow: 2px 2px #6B8288;
 }
+
+.text-shadow--sm {
+  text-shadow: 1px 1px #6B8288;
+}
