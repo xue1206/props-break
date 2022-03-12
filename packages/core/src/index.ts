@@ -24,20 +24,25 @@ const parseNode = (node: ts.TypeAliasDeclaration | ts.InterfaceDeclaration) => {
   const name = node.name.escapedText
   const fields: string[] = []
   if (node.kind === ts.SyntaxKind.TypeAliasDeclaration) {
-    node.type.forEachChild((child) => {
-      // @ts-ignore
-      fields.push(child.name.escapedText)
-    })
+    // typescript throw "reading escapedText" error
+    try {
+      node.type.forEachChild((child) => {
+        // @ts-ignore
+        fields.push(child?.name?.escapedText)
+      })
+    } catch (err) {
+      console.warn(err)
+    }
   } else {
-    node.members.forEach((child) => {
+    node.members?.forEach((child) => {
       // @ts-ignore
-      fields.push(child.name.escapedText)
+      fields.push(child?.name?.escapedText)
     })
   }
 
   return {
     name,
-    fields,
+    fields: fields.filter(Boolean),
   }
 }
 
