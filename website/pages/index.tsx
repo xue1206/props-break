@@ -1,5 +1,6 @@
 import type { NextPage } from "next"
 import dynamic from "next/dynamic"
+import { parse } from "@props-break/core"
 
 const Editor = dynamic(() => import("../components/Editor"), { ssr: false })
 
@@ -8,6 +9,8 @@ const defaultValue = `type FormProps = {
   age: number
 }
 `
+
+console.log(parse(defaultValue))
 
 const Home: NextPage = () => {
   return (

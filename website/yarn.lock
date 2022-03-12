@@ -170,6 +170,16 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@props-break/core@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@props-break/core/-/core-1.0.0.tgz#196b46606ec184c2d10b53e5638394172c135f27"
+  integrity sha512-Ywew4B0WHfLwNP3TQ+TOFf4at16dASCBoLm+AD5eiPX26GiEGAnWls6rCkIxe2P9tRFM3Ll4oElixvyO2i0BRw==
+
+"@props-break/generater-react@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@props-break/generater-react/-/generater-react-1.0.0.tgz#ce8ef0a79f95607ab61f4c4c21838e9d04c2ee79"
+  integrity sha512-XJcdvl/fEaaKOThHW6EHFHmmblBWdA7UK2nSCw3b+XRnWg+N5IdZTOqlwNLg3LPGxQAVqbtwb28LqCI3voMOtQ==
+
 "@rushstack/eslint-patch@^1.0.8":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.1.0.tgz#7f698254aadf921e48dda8c0a6b304026b8a9323"
