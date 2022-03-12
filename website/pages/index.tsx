@@ -12,15 +12,15 @@ const defaultValue = `type FormProps = {
 `
 const parseTypeToReactCode = (code: string) => {
   const result = parse(code)
-  let componentName
+  let componentName: string = ""
   try {
-    componentName = result.name.match(/(\w+)Props/)[1]
+    componentName = (result.name as string).match(/(\w+)Props/)?.[1] || ""
   } catch (err) {
     alert("parse component name failed")
   }
   return generate({
     componentName,
-    propsTypeName: result.name,
+    propsTypeName: result.name as string,
     propsFields: result.fields,
   })
 }

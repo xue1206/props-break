@@ -170,15 +170,15 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@props-break/core@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@props-break/core/-/core-1.0.1.tgz#66c44156bfd7ace337ab810e031b627dc381e71e"
-  integrity sha512-lei68sh8JquD0AbMXtrB2IDRjhXa9QiievV2O+Ain1erm8+GC7tGMm4nYCBAzdUeR3SqZprRMDPW6QPC5/iF7A==
+"@props-break/core@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@props-break/core/-/core-1.0.2.tgz#9b0f9f610de4ffdbd77d8ed35b6e75e7a3c83c5d"
+  integrity sha512-MTkJRMrfTGcWd430+kgB73ZXoTZxhANX2q0zr5CTQVtRvMHS4f3sRlK4hqzQbt5EVKsapUgLRANVwl4TZwK27g==
 
-"@props-break/generater-react@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@props-break/generater-react/-/generater-react-1.0.1.tgz#d9cb32910b7fd3a9244c5ced8ff749025ecd8098"
-  integrity sha512-eHA3r64Xj+OAIhdkDbTDUGDaFpgQVX7517hFFqQP+26UB0ODSz0tZk9X4RxbQv574oO4CXvIDRojOaM7zV6pvQ==
+"@props-break/generater-react@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@props-break/generater-react/-/generater-react-1.0.2.tgz#a3639160b2efaf7a400468adc8eaf743ce762b08"
+  integrity sha512-HLNvz+7jdhj2rMHu9eGdVyaRdVGffI1fdBICX7p7p6j5w0VsfHVhtLPyQa87vzGticIjSEoLgxOLg/Y68N8s/g==
 
 "@rushstack/eslint-patch@^1.0.8":
   version "1.1.0"
