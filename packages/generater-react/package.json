@@ -11,7 +11,7 @@
     "test": "jest",
     "build": "pnpm compile && pnpm type",
     "compile": "swc ./src/index.ts -o dist/index.js",
-    "type": "tsc ./src/index.ts --declaration --emitDeclarationOnly --outfile dist/index.js"
+    "type": "tsc ./src/index.ts --declaration --emitDeclarationOnly --outdir dist"
   },
   "keywords": [],
   "author": "",
