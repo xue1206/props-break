@@ -12,6 +12,9 @@ const defaultValue = `type FormProps = {
 `
 const parseTypeToReactCode = (code: string) => {
   const result = parse(code)
+  if (!result?.name) {
+    return ""
+  }
   let componentName: string = ""
   try {
     componentName = (result.name as string).match(/(\w+)Props/)?.[1] || ""
