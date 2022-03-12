@@ -19,7 +19,7 @@
     });
     _exports.default = _exports.generate = void 0;
     var generate = function(options) {
-        return "\nconst ".concat(options.componentName, ": React.FC<").concat(options.propsTypeName, "> = ({").concat(options.propsFields.join(", ")).concat(options.children ? ", children" : "", "}) => {\n    return\n}\n");
+        return "const ".concat(options.componentName, ": React.FC<").concat(options.propsTypeName, "> = ({ ").concat(options.propsFields.join(", ")).concat(options.children ? ", children" : "", " }) => {\n    return\n}\n");
     };
     _exports.generate = generate;
     var _default = generate;

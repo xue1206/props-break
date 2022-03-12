@@ -170,10 +170,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@props-break/core@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@props-break/core/-/core-1.0.0.tgz#196b46606ec184c2d10b53e5638394172c135f27"
-  integrity sha512-Ywew4B0WHfLwNP3TQ+TOFf4at16dASCBoLm+AD5eiPX26GiEGAnWls6rCkIxe2P9tRFM3Ll4oElixvyO2i0BRw==
+"@props-break/core@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@props-break/core/-/core-1.0.1.tgz#66c44156bfd7ace337ab810e031b627dc381e71e"
+  integrity sha512-lei68sh8JquD0AbMXtrB2IDRjhXa9QiievV2O+Ain1erm8+GC7tGMm4nYCBAzdUeR3SqZprRMDPW6QPC5/iF7A==
 
 "@props-break/generater-react@^1.0.0":
   version "1.0.0"

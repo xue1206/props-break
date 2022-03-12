@@ -6,10 +6,9 @@ type Options = {
 }
 
 export const generate = (options: Options) => {
-  return `
-const ${options.componentName}: React.FC<${options.propsTypeName}> = ({ ${options.propsFields.join(
-    ", "
-  )}${options.children ? ", children" : ""} }) => {
+  return `const ${options.componentName}: React.FC<${
+    options.propsTypeName
+  }> = ({ ${options.propsFields.join(", ")}${options.children ? ", children" : ""} }) => {
     return
 }
 `

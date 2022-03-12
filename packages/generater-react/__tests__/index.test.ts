@@ -7,8 +7,7 @@ describe("generater-react", () => {
       propsTypeName: "FormProps",
       propsFields: ["name", "age"],
     })
-    expect(result).toBe(`
-const Form: React.FC<FormProps> = ({ name, age }) => {
+    expect(result).toBe(`const Form: React.FC<FormProps> = ({ name, age }) => {
     return
 }
 `)
@@ -20,8 +19,7 @@ const Form: React.FC<FormProps> = ({ name, age }) => {
       propsFields: ["name", "age"],
       children: true,
     })
-    expect(result).toBe(`
-const Form: React.FC<FormProps> = ({ name, age, children }) => {
+    expect(result).toBe(`const Form: React.FC<FormProps> = ({ name, age, children }) => {
     return
 }
 `)
