@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@monaco-editor/react": "^4.3.1",
-    "@props-break/core": "^1.0.3",
+    "@props-break/core": "^1.0.4",
     "@props-break/generater-react": "^1.0.2",
     "ahooks": "^3.1.13",
     "monaco-editor-webpack-plugin": "^7.0.1",

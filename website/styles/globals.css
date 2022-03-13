@@ -28,3 +28,7 @@ a {
 .text-shadow--sm {
   text-shadow: 1px 1px #6B8288;
 }
+
+.text-shadow:active {
+  text-shadow: none;
+}
